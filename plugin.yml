@@ -1,0 +1,13 @@
+name: CommandRegister
+main: com.mithrilnetwork.mc.commandregister.Main
+version: 0.0.1
+softdepend: [ProtocolLib]
+prefix: CommandRegister
+author: Puharesource
+website: www.Mithril-Network.com
+description: Gives you the ability to define custom commands.
+commands:
+    cmdregister:
+        description: CommandRegister commands.
+        aliases: [cr]
+        usage: /cr

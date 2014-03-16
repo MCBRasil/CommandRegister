@@ -1,0 +1,16 @@
+commands:
+  info:
+    permission: 'commandregister.command.info'
+    json: false
+    lines:
+    - '&aLine #1'
+    - '&bLine #2'
+    - '&cLine #3'
+  vote:
+    permission: 'commandregister.command.vote'
+    json: true
+    lines:
+    - '&8[&6&lVote Links&8]'
+    - '{text: "Vote Link #1: ", color: green, extra:[{text: "[CLICK ME]", color: green, clickEvent:{action:open_url, value:"http://example.com/"}, hoverEvent:{action:show_text, value:"&ahttp://example.com/"}}]}'
+    - '{text: "Vote Link #1: ", color: aqua, extra:[{text: "[CLICK ME]", color: green, clickEvent:{action:open_url, value:"http://example.com/"}, hoverEvent:{action:show_text, value:"&ahttp://example.com/"}}]}'
+    - '{text: "Vote Link #1: ", color: red, extra:[{text: "[CLICK ME]", color: green, clickEvent:{action:open_url, value:"http://example.com/"}, hoverEvent:{action:show_text, value:"&ahttp://example.com/"}}]}'
